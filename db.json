@@ -1,0 +1,12 @@
+{
+  "clients": [
+    {
+      "name": "Spiderman ",
+      "businnes": "Gates",
+      "email": "bruce@gmail.com",
+      "telephone": "244324",
+      "notes": "bb",
+      "id": 1
+    }
+  ]
+}
