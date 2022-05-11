@@ -1,7 +1,7 @@
 import React from 'react'
 
 const deleteClient = async(id) => {
-  const URL=`http://localhost:4000/clients/${id}`
+  const URL=`${import.meta.env.VITE_API_URL}/${id}`
   try {
     const req=await fetch(URL,{
         method:"DELETE"

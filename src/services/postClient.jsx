@@ -1,7 +1,7 @@
 import React from 'react'
 
 const postClient = async(values) => {
-  const URL="http://localhost:4000/clients"
+  const URL=`${import.meta.env.VITE_API_URL}/clients`
   try {
     const req=await fetch(URL,{
         method:"POST",
